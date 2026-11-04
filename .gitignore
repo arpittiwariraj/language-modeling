@@ -1,0 +1,22 @@
+# .gitignore
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# virtualenvs
+*.egg-info/
+.eggs/
+
+# outputs
+models/
+*.pt
+*.ckpt
+
+# editor/os
+.DS_Store
+.idea/
+.vscode/
+*.log
